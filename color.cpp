@@ -18,12 +18,12 @@ public:
     void setGreen(int g) { green = g; }
     void setBlue(int b)  { blue = b; }
 
-    // Getters
+    
     int getRed() const   { return red; }
     int getGreen() const { return green; }
     int getBlue() const  { return blue; }
 
-    // Print method
+    
     void print() const {
         cout << left << setw(12) << "Color"
              << " -> R: " << setw(3) << red
@@ -31,3 +31,11 @@ public:
              << " B: "   << setw(3) << blue << endl;
     }
 };
+
+int main() {
+    
+    Color c1;
+    c1.setRed(255);
+    c1.setGreen(0);
+    c1.setBlue(0);
+}
