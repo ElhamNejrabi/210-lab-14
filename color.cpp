@@ -38,4 +38,16 @@ int main() {
     c1.setRed(255);
     c1.setGreen(0);
     c1.setBlue(0);
+    
+     Color c2(0, 255, 0);
+    Color c3(0, 0, 255);
+    Color c4(128, 128, 128);
+
+    cout << "===== Color Objects =====\n";
+    c1.print();
+    c2.print();
+    c3.print();
+    c4.print();
+
+    return 0;
 }
